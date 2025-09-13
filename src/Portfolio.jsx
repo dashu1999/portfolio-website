@@ -62,7 +62,7 @@ const resumeData = {
     {
       name: "Full Stack Developer - MERN Stack",
       date: "18th August 2025",
-      image: "src/img/01.jpg",
+      image: "https://github.com/dashu1999/portfolio-website/blob/main/src/img/01.jpg?raw=true",
       link: "https://success.simplilearn.com/652fd5b7-453d-40ee-92b6-b565ff1be796#acc.cAmGbX65"
     },
     {
