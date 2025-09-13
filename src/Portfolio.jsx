@@ -199,7 +199,7 @@ const App = () => {
             className="px-4 py-2 rounded-full font-medium transition-colors duration-300 bg-blue-600 text-white shadow-md flex items-center space-x-2 hover:bg-blue-700"
           >
             <icons.Download className="w-5 h-5"/>
-            <span>Download Resume</span>
+            <span>My Resume</span>
           </a>
         </div>
       </nav>
