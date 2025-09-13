@@ -62,27 +62,27 @@ const resumeData = {
     {
       name: "Full Stack Developer - MERN Stack",
       date: "18th August 2025",
-      image: "https://github.com/dashu1999/portfolio-website/blob/main/src/img/01.jpg?raw=true",
-      link: "https://success.simplilearn.com/652fd5b7-453d-40ee-92b6-b565ff1be796#acc.cAmGbX65"
+      image: "https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/158465546",
+      link: "https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/158465546"
     },
     {
       name: "Build a Strong MERN Foundation",
       date: "15th June 2025",
-      image: "https://placehold.co/800x600/1e293b/fff?text=MERN+Foundation+Certificate",
-      link: "YOUR_MERN_FOUNDATION_CERT_URL"
+      image: "https://certificates.simplicdn.net/share/8471447_84369021750001007352.png",
+      link: "https://certificates.simplicdn.net/share/8471447_84369021750001007352.png"
     },
     {
       name: "Design a Dynamic Frontend with React",
       date: "30th July 2025",
-      image: "https://placehold.co/800x600/1e293b/fff?text=React+Frontend+Certificate",
-      link: "YOUR_REACT_FRONTEND_CERT_URL"
+      image: "https://certificates.simplicdn.net/share/8707786_84369021753853321901.png",
+      link: "https://certificates.simplicdn.net/share/8707786_84369021753853321901.png"
     },
-    {
-      name: "Agile & Scrum Fundamentals",
-      date: "Date of completion",
-      image: "https://placehold.co/800x600/1e293b/fff?text=Agile+%26+Scrum+Certificate",
-      link: "YOUR_AGILE_CERT_URL"
-    },
+    // {
+    //   name: "Agile & Scrum Fundamentals",
+    //   date: "Date of completion",
+    //   image: "https://placehold.co/800x600/1e293b/fff?text=Agile+%26+Scrum+Certificate",
+    //   link: "YOUR_AGILE_CERT_URL"
+    // },
   ]
 };
 
