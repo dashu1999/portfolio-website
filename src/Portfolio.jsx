@@ -39,7 +39,7 @@ const profileData = {
     phone: "+44 7436 633305",
     location: "Birmingham, UK",
     linkedin: "https://www.linkedin.com/in/darshankumar-thummar", // Assuming a placeholder link
-    github: "https://github.com/darshan", // Assuming a placeholder link
+    github: "https://github.com/dashu1999", // Assuming a placeholder link
   },
   skills: [
     { category: "Frontend", items: ["ReactJS", "JavaScript (ES6+)", "HTML5", "CSS3", "jQuery", "Bootstrap", "TailwindCSS", "Responsive UI Design"] },
