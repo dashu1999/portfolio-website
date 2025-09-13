@@ -9,6 +9,7 @@ const resumeData = {
     location: "Birmingham, UK",
     linkedin: "https://www.linkedin.com/in/darshan-thummar/",
     github: "https://github.com/dashu1999",
+    resume: "resume.docx",
   },
   skills: {
     frontend: ["ReactJS", "JavaScript (ES6+)", "HTML5", "CSS3", "jQuery", "Bootstrap", "TailwindCSS", "Responsive UI Design"],
@@ -100,7 +101,7 @@ function App() {
           <div className="flex justify-center md:justify-end mt-2 space-x-4">
             <a href={resumeData.contact.linkedin} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-500 transition-colors duration-200">LinkedIn</a>
             <a href={resumeData.contact.github} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-500 transition-colors duration-200">GitHub</a>
-            <a href="resume.docx" download className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-200">Download Resume</a>
+            <a href={resumeData.contact.resume} download className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-200">Download Resume</a>
           </div>
         </div>
       </header>
