@@ -194,7 +194,7 @@ const App = () => {
           <NavLink id="certifications" label="Certifications" />
           <NavLink id="education" label="Education" />
           <a
-            href="https://github.com/dashu1999/portfolio-website/blob/main/src/resume.docx"
+            href="https://github.com/dashu1999/portfolio-website/raw/refs/heads/main/src/resume.docx"
             download
             className="px-4 py-2 rounded-full font-medium transition-colors duration-300 bg-blue-600 text-white shadow-md flex items-center space-x-2 hover:bg-blue-700"
           >
