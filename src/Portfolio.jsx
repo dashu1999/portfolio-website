@@ -60,6 +60,12 @@ const resumeData = {
   ],
   certifications: [
     {
+      name: "Full Stack Developer - MERN Stack",
+      date: "18th August 2025",
+      image: "https://success.simplilearn.com/652fd5b7-453d-40ee-92b6-b565ff1be796#acc.cAmGbX65",
+      link: "https://success.simplilearn.com/652fd5b7-453d-40ee-92b6-b565ff1be796#acc.cAmGbX65"
+    },
+    {
       name: "Build a Strong MERN Foundation",
       date: "15th June 2025",
       image: "https://placehold.co/800x600/1e293b/fff?text=MERN+Foundation+Certificate",
@@ -70,12 +76,6 @@ const resumeData = {
       date: "30th July 2025",
       image: "https://placehold.co/800x600/1e293b/fff?text=React+Frontend+Certificate",
       link: "YOUR_REACT_FRONTEND_CERT_URL"
-    },
-    {
-      name: "Full Stack Developer - MERN Stack",
-      date: "18th August 2025",
-      image: "https://placehold.co/800x600/1e293b/fff?text=MERN+Stack+Certificate",
-      link: "https://success.simplilearn.com/652fd5b7-453d-40ee-92b6-b565ff1be796"
     },
     {
       name: "Agile & Scrum Fundamentals",
