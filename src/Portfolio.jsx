@@ -62,26 +62,35 @@ const resumeData = {
       name: "Build a Strong MERN Foundation",
       date: "15th June 2025",
       image: "https://placehold.co/800x600/1e293b/fff?text=MERN+Foundation+Certificate",
+      link: "YOUR_MERN_FOUNDATION_CERT_URL"
     },
     {
       name: "Design a Dynamic Frontend with React",
       date: "30th July 2025",
       image: "https://placehold.co/800x600/1e293b/fff?text=React+Frontend+Certificate",
+      link: "YOUR_REACT_FRONTEND_CERT_URL"
     },
     {
       name: "Full Stack Developer - MERN Stack",
       date: "18th August 2025",
       image: "https://placehold.co/800x600/1e293b/fff?text=MERN+Stack+Certificate",
+      link: "https://success.simplilearn.com/652fd5b7-453d-40ee-92b6-b565ff1be796"
+    },
+    {
+      name: "Agile & Scrum Fundamentals",
+      date: "Date of completion",
+      image: "https://placehold.co/800x600/1e293b/fff?text=Agile+%26+Scrum+Certificate",
+      link: "YOUR_AGILE_CERT_URL"
     },
   ]
 };
 
 function App() {
   return (
-    <div className="bg-gray-900 min-h-screen text-gray-100 p-8 md:p-16">
-      <header className="flex flex-col md:flex-row items-center justify-between mb-12 border-b border-gray-700 pb-8">
+    <div className="bg-white min-h-screen text-gray-900 p-8 md:p-16">
+      <header className="flex flex-col md:flex-row items-center justify-between mb-12 border-b border-gray-200 pb-8">
         <div className="text-center md:text-left">
-          <h1 className="text-5xl md:text-6xl font-extrabold text-blue-400">Darshan Kumar Thummar</h1>
+          <h1 className="text-5xl md:text-6xl font-extrabold text-blue-600">Darshan Kumar Thummar</h1>
           <p className="text-xl md:text-2xl mt-2 font-light">Full Stack MERN Developer</p>
         </div>
         <div className="mt-6 md:mt-0 text-center md:text-right">
@@ -89,8 +98,8 @@ function App() {
           <p className="text-sm md:text-base font-medium">{resumeData.contact.phone}</p>
           <p className="text-sm md:text-base font-medium">{resumeData.contact.location}</p>
           <div className="flex justify-center md:justify-end mt-2 space-x-4">
-            <a href={resumeData.contact.linkedin} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors duration-200">LinkedIn</a>
-            <a href={resumeData.contact.github} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors duration-200">GitHub</a>
+            <a href={resumeData.contact.linkedin} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-500 transition-colors duration-200">LinkedIn</a>
+            <a href={resumeData.contact.github} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-500 transition-colors duration-200">GitHub</a>
             <a href="YOUR_RESUME_DOWNLOAD_URL" download className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-200">Download Resume</a>
           </div>
         </div>
@@ -98,33 +107,33 @@ function App() {
 
       {/* Profile Section */}
       <section className="mb-12">
-        <h2 className="text-3xl font-bold text-blue-400 mb-4 border-b border-gray-700 pb-2">Professional Profile</h2>
-        <p className="text-lg leading-relaxed text-gray-300">{resumeData.profile}</p>
+        <h2 className="text-3xl font-bold text-blue-600 mb-4 border-b border-gray-200 pb-2">Professional Profile</h2>
+        <p className="text-lg leading-relaxed text-gray-600">{resumeData.profile}</p>
       </section>
 
       {/* Skills Section */}
       <section className="mb-12">
-        <h2 className="text-3xl font-bold text-blue-400 mb-4 border-b border-gray-700 pb-2">Core Skills & Technical Expertise</h2>
+        <h2 className="text-3xl font-bold text-blue-600 mb-4 border-b border-gray-200 pb-2">Core Skills & Technical Expertise</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-semibold text-gray-100 mb-2">Frontend Development</h3>
-            <ul className="list-disc list-inside space-y-1 text-gray-300">
+            <h3 className="text-xl font-semibold text-gray-800 mb-2">Frontend Development</h3>
+            <ul className="list-disc list-inside space-y-1 text-gray-600">
               {resumeData.skills.frontend.map((skill, index) => (
                 <li key={index}>{skill}</li>
               ))}
             </ul>
           </div>
           <div>
-            <h3 className="text-xl font-semibold text-gray-100 mb-2">Backend Development</h3>
-            <ul className="list-disc list-inside space-y-1 text-gray-300">
+            <h3 className="text-xl font-semibold text-gray-800 mb-2">Backend Development</h3>
+            <ul className="list-disc list-inside space-y-1 text-gray-600">
               {resumeData.skills.backend.map((skill, index) => (
                 <li key={index}>{skill}</li>
               ))}
             </ul>
           </div>
           <div>
-            <h3 className="text-xl font-semibold text-gray-100 mb-2">Databases & Tools</h3>
-            <ul className="list-disc list-inside space-y-1 text-gray-300">
+            <h3 className="text-xl font-semibold text-gray-800 mb-2">Databases & Tools</h3>
+            <ul className="list-disc list-inside space-y-1 text-gray-600">
               {resumeData.skills.databases.map((skill, index) => (
                 <li key={index}>{skill}</li>
               ))}
@@ -138,25 +147,25 @@ function App() {
 
       {/* Experience Section */}
       <section className="mb-12">
-        <h2 className="text-3xl font-bold text-blue-400 mb-4 border-b border-gray-700 pb-2">Professional Experience</h2>
+        <h2 className="text-3xl font-bold text-blue-600 mb-4 border-b border-gray-200 pb-2">Professional Experience</h2>
         {resumeData.experience.map((job, index) => (
-          <div key={index} className="bg-gray-800 rounded-lg p-6 mb-4 shadow-lg">
-            <h3 className="text-2xl font-semibold text-gray-100">{job.title}</h3>
-            <p className="text-lg text-gray-400">{job.company} | {job.location} | {job.dates}</p>
-            <p className="mt-2 text-gray-300">{job.description}</p>
+          <div key={index} className="bg-gray-100 rounded-lg p-6 mb-4 shadow-lg">
+            <h3 className="text-2xl font-semibold text-gray-800">{job.title}</h3>
+            <p className="text-lg text-gray-500">{job.company} | {job.location} | {job.dates}</p>
+            <p className="mt-2 text-gray-600">{job.description}</p>
           </div>
         ))}
       </section>
 
       {/* Projects Section */}
       <section className="mb-12">
-        <h2 className="text-3xl font-bold text-blue-400 mb-4 border-b border-gray-700 pb-2">Key Projects</h2>
+        <h2 className="text-3xl font-bold text-blue-600 mb-4 border-b border-gray-200 pb-2">Key Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {resumeData.projects.map((project, index) => (
-            <div key={index} className="bg-gray-800 rounded-lg p-6 shadow-lg">
-              <h3 className="text-2xl font-semibold text-gray-100">{project.name}</h3>
-              <p className="text-lg text-gray-400 mt-1">{project.technologies}</p>
-              <p className="mt-4 text-gray-300">{project.description}</p>
+            <div key={index} className="bg-gray-100 rounded-lg p-6 shadow-lg">
+              <h3 className="text-2xl font-semibold text-gray-800">{project.name}</h3>
+              <p className="text-lg text-gray-500 mt-1">{project.technologies}</p>
+              <p className="mt-4 text-gray-600">{project.description}</p>
             </div>
           ))}
         </div>
@@ -164,26 +173,26 @@ function App() {
       
       {/* Certifications Section */}
       <section className="mb-12">
-        <h2 className="text-3xl font-bold text-blue-400 mb-4 border-b border-gray-700 pb-2">Certifications</h2>
+        <h2 className="text-3xl font-bold text-blue-600 mb-4 border-b border-gray-200 pb-2">Certifications</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {resumeData.certifications.map((cert, index) => (
-            <div key={index} className="bg-gray-800 rounded-lg p-4 shadow-lg flex flex-col items-center text-center">
+            <a key={index} href={cert.link} target="_blank" rel="noopener noreferrer" className="bg-gray-100 rounded-lg p-4 shadow-lg flex flex-col items-center text-center transition-transform transform hover:scale-105">
               <img src={cert.image} alt={cert.name} className="w-full h-auto rounded-md object-cover mb-4" />
-              <h3 className="text-lg font-semibold text-gray-100">{cert.name}</h3>
-              <p className="text-sm text-gray-400 mt-1">{cert.date}</p>
-            </div>
+              <h3 className="text-lg font-semibold text-gray-800">{cert.name}</h3>
+              <p className="text-sm text-gray-500 mt-1">{cert.date}</p>
+            </a>
           ))}
         </div>
       </section>
 
       {/* Education Section */}
       <section className="mb-12">
-        <h2 className="text-3xl font-bold text-blue-400 mb-4 border-b border-gray-700 pb-2">Education</h2>
+        <h2 className="text-3xl font-bold text-blue-600 mb-4 border-b border-gray-200 pb-2">Education</h2>
         {resumeData.education.map((edu, index) => (
-          <div key={index} className="bg-gray-800 rounded-lg p-6 mb-4 shadow-lg">
-            <h3 className="text-2xl font-semibold text-gray-100">{edu.degree}</h3>
-            <p className="text-lg text-gray-400">{edu.school} | {edu.dates}</p>
-            <p className="mt-2 text-gray-300">{edu.details}</p>
+          <div key={index} className="bg-gray-100 rounded-lg p-6 mb-4 shadow-lg">
+            <h3 className="text-2xl font-semibold text-gray-800">{edu.degree}</h3>
+            <p className="text-lg text-gray-500">{edu.school} | {edu.dates}</p>
+            <p className="mt-2 text-gray-600">{edu.details}</p>
           </div>
         ))}
       </section>
