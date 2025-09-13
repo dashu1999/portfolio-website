@@ -9,7 +9,7 @@ const resumeData = {
     location: "Birmingham, UK",
     linkedin: "https://www.linkedin.com/in/darshan-thummar/",
     github: "https://github.com/dashu1999",
-    resume: "resume.docx",
+    resume: "https://github.com/dashu1999/portfolio-website/blob/main/src/resume.docx",
   },
   skills: {
     frontend: ["ReactJS", "JavaScript (ES6+)", "HTML5", "CSS3", "jQuery", "Bootstrap", "TailwindCSS", "Responsive UI Design"],
